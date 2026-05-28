@@ -35,9 +35,9 @@
 
 
 ────────────────────────────────────────────────────────────────
-  STEP 3.  survey.html 에 URL 연결                       [ 1분 ]
+  STEP 3.  index.html 에 URL 연결                       [ 1분 ]
 ────────────────────────────────────────────────────────────────
-   □ 메모장으로 survey.html 열기
+   □ 메모장으로 index.html 열기
    □ Ctrl+F → __APPS_SCRIPT_URL__ 검색
    □ 그 자리에 2번에서 복사한 URL 붙여넣기 (따옴표 안 글자만)
    □ 저장
@@ -48,18 +48,18 @@
 ────────────────────────────────────────────────────────────────
    ─ Vercel (가장 빠름)
         □ vercel.com 가입 → Add New → Project → 메인화면에
-          survey.html 을 드래그 → 자동 도메인 발급
+          index.html 을 드래그 → 자동 도메인 발급
 
    또는 GitHub Pages
-        □ 저장소 생성(Public) → survey.html 업로드
+        □ 저장소 생성(Public) → index.html 업로드
         □ Settings → Pages → main 브랜치 Save
 
 
 ────────────────────────────────────────────────────────────────
   STEP 5.  분야별 단축 URL 두 개 만들기                  [ 3분 ]
 ────────────────────────────────────────────────────────────────
-   □ 기술 분야 원본    https://[도메인]/survey.html?type=tech
-   □ 정책 분야 원본    https://[도메인]/survey.html?type=policy
+   □ 기술 분야 원본    https://[도메인]/index.html?type=tech
+   □ 정책 분야 원본    https://[도메인]/index.html?type=policy
    □ 각각 me2.do / bitly.com / tinyurl.com 로 단축
    □ 단축 URL 두 개를 한 번씩 클릭해 정상 화면이 뜨는지 확인
 

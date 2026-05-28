@@ -3,7 +3,7 @@
 ════════════════════════════════════════════════════════════════
 
 검증 일시  2026-05-28
-대상 파일  presurvey/survey.html, presurvey/apps_script_backend.gs
+대상 파일  presurvey/index.html, presurvey/apps_script_backend.gs
 검증 방법  HTML/JS 정적 분석 (정규식 매칭)
 총 항목    7건
 통과 항목  7 / 7

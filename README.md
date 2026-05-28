@@ -9,7 +9,7 @@
 
 ```
 presurvey/
-├── survey.html                              ─ 설문 페이지 (단일 파일)
+├── index.html                              ─ 설문 페이지 (단일 파일)
 ├── apps_script_backend.gs                   ─ Google Apps Script 백엔드 코드
 ├── 사전설문_배포가이드_2026-05-28.txt        ─ 비개발자용 5단계 상세 배포 가이드
 ├── 빠른배포_1페이지_체크리스트.txt           ─ 압축본 (A4 한 장 / 약 20분)
@@ -28,7 +28,7 @@ presurvey/
 ## 한 줄 요약
 
 ```
-응답자 ─→ survey.html?type=tech|policy ─POST→ Apps Script Web App ─→ Google Sheet
+응답자 ─→ index.html?type=tech|policy ─POST→ Apps Script Web App ─→ Google Sheet
 ```
 
 URL 파라미터(`?type=...`)가 없으면 응답 자체가 차단되는 게이트 화면 → 분야 혼동 데이터가 시트에 쌓이지 않음.
@@ -55,8 +55,8 @@ URL 파라미터(`?type=...`)가 없으면 응답 자체가 차단되는 게이�
 
 1. Google 스프레드시트 생성 → ID 복사
 2. Apps Script 새 프로젝트 → `apps_script_backend.gs` 붙여넣기 → `SHEET_ID` 교체 → 웹 앱 배포 → URL 복사
-3. `survey.html` 안의 `APPS_SCRIPT_ENDPOINT` 에 URL 붙여넣기
-4. `survey.html` 을 Vercel / GitHub Pages 에 업로드
+3. `index.html` 안의 `APPS_SCRIPT_ENDPOINT` 에 URL 붙여넣기
+4. `index.html` 을 Vercel / GitHub Pages 에 업로드
 5. 분야별 단축 URL 두 개 생성 (`?type=tech` / `?type=policy`)
 6. 자체 테스트 1건 → 발송 안내문 템플릿 이용해 발송
 

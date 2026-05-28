@@ -2,7 +2,7 @@
 """
 사전설문 v2 자동 검증 스크립트
   ─ 피드백 7건 반영 여부 검사
-  ─ docx 원문 문항 ↔ survey.html 텍스트 매칭
+  ─ docx 원문 문항 ↔ index.html 텍스트 매칭
 출력:
   ─ 피드백반영_검증리포트.txt
   ─ 문항일치_검증리포트.txt
@@ -11,7 +11,7 @@ import re, os, html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
-SURVEY = os.path.join(HERE, '..', 'survey.html')
+SURVEY = os.path.join(HERE, '..', 'index.html')
 
 with open(SURVEY, 'r', encoding='utf-8') as f:
     HTML_RAW = f.read()
@@ -161,7 +161,7 @@ report1.append('   사전설문 v2 · 피드백 7건 반영 자동 검증 리포
 report1.append('════════════════════════════════════════════════════════════════')
 report1.append('')
 report1.append('검증 일시  2026-05-28')
-report1.append('대상 파일  presurvey/survey.html, presurvey/apps_script_backend.gs')
+report1.append('대상 파일  presurvey/index.html, presurvey/apps_script_backend.gs')
 report1.append('검증 방법  HTML/JS 정적 분석 (정규식 매칭)')
 report1.append('총 항목    7건')
 report1.append(f'통과 항목  {passed} / 7')
@@ -233,7 +233,7 @@ report2.append('═════════════════════�
 report2.append('')
 report2.append('검증 일시        2026-05-28')
 report2.append('원본            사전설문지_TOP100Summit_260526_v3.docx')
-report2.append('대상            presurvey/survey.html')
+report2.append('대상            presurvey/index.html')
 report2.append('검증 방법       HTML 텍스트만 추출(태그 제거) 후 원본 핵심 문구 25건 in-검색')
 report2.append('')
 report2.append('────────────────────────────────────────────────────────────────')

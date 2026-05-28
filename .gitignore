@@ -18,3 +18,5 @@ __pycache__/
 # 임시
 *.log
 *.tmp
+
+.vercel

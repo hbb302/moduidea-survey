@@ -34,10 +34,10 @@
 
 
 ────────────────────────────────────────────────────────────────
-   STEP 3 · survey.html 에 URL 연결                  ✅ 완료
+   STEP 3 · index.html 에 URL 연결                  ✅ 완료
 ────────────────────────────────────────────────────────────────
 
-   survey.html 안 APPS_SCRIPT_ENDPOINT 변수에 STEP 2 URL이 박혔습니다.
+   index.html 안 APPS_SCRIPT_ENDPOINT 변수에 STEP 2 URL이 박혔습니다.
    (사용자 추가 작업 없음 — 그대로 호스팅에 올리시면 됩니다)
 
 
@@ -46,7 +46,7 @@
 ────────────────────────────────────────────────────────────────
 
    가장 빠른 방법 (Vercel 드래그앤드롭)
-   ─ vercel.com 가입 → Add New → Project → survey.html 드래그
+   ─ vercel.com 가입 → Add New → Project → index.html 드래그
    ─ 자동 도메인 발급
 
    대안
@@ -62,8 +62,8 @@
 ────────────────────────────────────────────────────────────────
 
    해야 할 일
-   ─ 기술 분야 원본    https://[도메인]/survey.html?type=tech
-   ─ 정책 분야 원본    https://[도메인]/survey.html?type=policy
+   ─ 기술 분야 원본    https://[도메인]/index.html?type=tech
+   ─ 정책 분야 원본    https://[도메인]/index.html?type=policy
    ─ 각각 me2.do / bitly.com / tinyurl.com 로 단축
    ─ 단축 URL 두 개를 직접 클릭하여 정상 화면 노출 확인
         · 기술 단축 → 헤더에 "기술 분야 · TECHNOLOGY" 배지
@@ -131,7 +131,7 @@
    아직 채워야 할 자리 (사용자가 단계별로 받게 됨)
 ────────────────────────────────────────────────────────────────
 
-   ✅ STEP 2~3 완료 — survey.html 의 APPS_SCRIPT_ENDPOINT 박힘
+   ✅ STEP 2~3 완료 — index.html 의 APPS_SCRIPT_ENDPOINT 박힘
 
    STEP 5 후 → STEP 7에서 채움
         발송_안내문_기술분야.txt  ::  [기술분야_단축URL]
