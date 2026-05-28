@@ -462,8 +462,7 @@ footer::before{content:"";position:absolute;left:0;right:0;top:-3px;height:3px;
     <h2>접근 경로를 확인해 주세요</h2>
     <p>
       본 설문은 <strong>분야별 전용 링크</strong>로만 응답하실 수 있습니다.<br>
-      운영 담당자에게 안내받은 링크로 다시 접속해 주시기 바랍니다.<br><br>
-      <strong>대국민 상담센터</strong> 1811-6095
+      운영 담당자에게 안내받은 링크로 다시 접속해 주시기 바랍니다.
     </p>
     <div id="gatePreview" class="gate-preview hidden">
       <div class="gate-preview-label">운영자 미리보기 · LOCAL MODE</div>
@@ -772,7 +771,6 @@ footer::before{content:"";position:absolute;left:0;right:0;top:-3px;height:3px;
     <div class="footer-info">
       <div>「모두의 아이디어」 아이디어 고도화 멘토링 · 사업 기간: 2026. 5. – 11.</div>
       <div>수행기관: 아이지온파트너스㈜ · ㈜알앤비디파트너스</div>
-      <div class="center-line">대국민 상담센터 <strong>1811-6095</strong></div>
     </div>
   </div>
 </footer>
@@ -1061,11 +1059,11 @@ const APPS_SCRIPT_ENDPOINT = "https://script.google.com/macros/s/AKfycby4F9HMD4V
         window.scrollTo({top:0, behavior:'smooth'});
       } else {
         const msg = (json && json.error) ? json.error : `서버 응답 오류 (HTTP ${res.status})`;
-        showOverlay('err','제출에 실패했습니다', msg + '\n\n잠시 후 다시 시도해 주세요.\n계속 문제가 발생하면 대국민 상담센터(1811-6095)로 문의해 주세요.');
+        showOverlay('err','제출에 실패했습니다', msg + '\n\n잠시 후 다시 시도해 주세요.');
       }
     } catch(err){
       showOverlay('err','네트워크 오류',
-        '인터넷 연결을 확인하신 후 다시 시도해 주세요.\n계속 문제가 발생하면 대국민 상담센터(1811-6095)로 문의해 주세요.\n\n오류: ' + (err && err.message ? err.message : err));
+        '인터넷 연결을 확인하신 후 다시 시도해 주세요.\n\n오류: ' + (err && err.message ? err.message : err));
     } finally {
       submitBtn.disabled = false;
       submitBtn.querySelector('.btn-label').textContent = '설문 제출';
