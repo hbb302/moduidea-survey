@@ -57,7 +57,7 @@ URL 파라미터(`?type=...`)가 없으면 응답 자체가 차단되는 게이�
 2. Apps Script 새 프로젝트 → `apps_script_backend.gs` 붙여넣기 → `SHEET_ID` 교체 → 웹 앱 배포 → URL 복사
 3. `index.html` 안의 `APPS_SCRIPT_ENDPOINT` 에 URL 붙여넣기
 4. `index.html` 을 Vercel / GitHub Pages 에 업로드
-5. 분야별 단축 URL 두 개 생성 (`?type=tech` / `?type=policy`)
+5. 분야별 URL 2개 확정 (`?type=tech` / `?type=policy`, 단축 없이 원본 사용)
 6. 자체 테스트 1건 → 발송 안내문 템플릿 이용해 발송
 
 상세 절차는 `사전설문_배포가이드_2026-05-28.txt` 또는 `빠른배포_1페이지_체크리스트.txt` 참조.

@@ -68,25 +68,23 @@
 
 
 ────────────────────────────────────────────────────────────────
-   STEP 5 · 분야별 단축 URL 두 개                      ✅ 완료
+   STEP 5 · 분야별 발송 URL                            ✅ 확정
 ────────────────────────────────────────────────────────────────
 
-   발급된 단축 URL (TinyURL · 자동 리다이렉트 검증 통과)
+   운영 결정 — 단축 URL 사용하지 않음. 원본 URL을 그대로 발송.
+   (단축 서비스 우회 페이지 없이, vercel.app 도메인 그대로 노출)
 
-   기술 분야
-        https://tinyurl.com/25zy5wca
-        ↳ https://moduidea-survey.vercel.app/?type=tech
+   기술 분야 (40명)
+        https://moduidea-survey.vercel.app/?type=tech
 
-   정책 분야
-        https://tinyurl.com/292l5cs6
-        ↳ https://moduidea-survey.vercel.app/?type=policy
+   정책 분야 (60명)
+        https://moduidea-survey.vercel.app/?type=policy
 
    자동 검증 결과
-   ─ 기술 단축 → 최종 URL 정확히 ?type=tech, "기술 분야" 배지 노출 확인
-   ─ 정책 단축 → 최종 URL 정확히 ?type=policy, "정책 분야" 배지 노출 확인
+   ─ /?type=tech    HTTP 200 / "기술 분야 · TECHNOLOGY" 배지 노출 ✓
+   ─ /?type=policy  HTTP 200 / "정책 분야 · POLICY" 배지 노출 ✓
 
-   ※ 발송_안내문_기술분야.txt / 발송_안내문_정책분야.txt 에 단축+원본 박힘
-   ※ me2.do 등 다른 서비스 선호 시 한 줄만 교체 가능
+   ※ 발송_안내문_기술분야.txt / 발송_안내문_정책분야.txt 에 원본 URL 박힘
 
 
 ────────────────────────────────────────────────────────────────

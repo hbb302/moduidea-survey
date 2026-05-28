@@ -184,13 +184,13 @@ function ensureHeaders(sheet) {
     sheet.setColumnWidth(5, 100);
     sheet.setColumnWidth(6, 130);
     sheet.setColumnWidth(7, 200);
-    sheet.setColumnWidth(8, 90);
-    for (var c = 9; c <= 11; c++) sheet.setColumnWidth(c, 130);  // 이해도 3컬럼
+    sheet.setColumnWidth(8, 90);                                  // 참석 여부
+    for (var c = 9; c <= 11; c++) sheet.setColumnWidth(c, 130);   // 이해도 3컬럼
     sheet.setColumnWidth(12, 300);  // 검증 방법(복수)
     sheet.setColumnWidth(13, 220);  // 검증 방법 기타
     sheet.setColumnWidth(14, 360);  // 지원 가능 부분
-    sheet.setColumnWidth(15, 200);
-    sheet.setColumnWidth(16, 80);
+    sheet.setColumnWidth(15, 200);  // UserAgent
+    sheet.setColumnWidth(16, 80);   // Language
   }
 }
 
